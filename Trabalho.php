@@ -1,5 +1,5 @@
 <?php
-
+// conexão com os campos em php
 if(isset ($_post['submit']))
 {
  $nome = ($_post['nome']);
@@ -23,9 +23,9 @@ if(isset ($_post['submit']))
 </head>
 <body>
  <p> Preencha o formulário abaixo</p>
+ //Divs para ser utilizada na criação dos campos do formulário.//
  <div class = "box">
  <form action="formulario.php" method="post"> 
-
  <div class="field">
  <label for="nome">Nome:</label>
  <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" 
